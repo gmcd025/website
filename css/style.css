@@ -27,7 +27,7 @@ header {
   color: white;
   padding: 0; 
   height: 750px;
-  background: url("/images/locations/london.jpg") no-repeat top center;
+  background: url("../images/locations/london.jpg") no-repeat top center;
   background-position: center;
   background-size: cover;
   overflow: hidden;
