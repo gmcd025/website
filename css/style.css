@@ -1,0 +1,126 @@
+/* Universal */
+
+* {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* Type Selector */
+
+/* resets the CSS for the page */
+html, body, footer, header  {
+	margin: 0;
+  padding: 0;
+} 
+
+
+body {
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+header {
+  /* background-color: #484848; */
+  color: white;
+  padding: 0; 
+  height: 750px;
+  background: url("/images/locations/london.jpg") no-repeat top center;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+
+h1, h2, h3, h4, img {
+  padding: 20px;
+}
+
+nav ul p {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav {
+  padding: 4px;
+}
+  
+#home {
+  font-size: 5rem;
+  color: white;
+  margin-top: 40px; 
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin-top: 0.8em;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+img {
+  height: 70% /*400px*/;
+  width: 58% /*600px*/;
+}
+
+li {
+  padding: 10px;
+  text-align: auto;
+}
+
+ul {
+  list-style: none
+}
+
+/* Id Styles */
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px #484848;
+}
+
+#home {
+  margin-bottom: 50px;
+}
+
+/* Class selector */ 
+
+.experience_details {
+  background-color: white;
+}
+
+.top-border {
+  border-top: 3px solid lightgrey;
+}
+
+.header_intro {
+  width: 70%; 
+  margin: auto;
+}
+
+.content {
+  width: 70%; 
+  margin: auto;
+}
+
+
+/* Psuedo classes */
+
+/* styles the links on the page */
+a:any-link  {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+:focus  {
+  color: forestgreen;
+}
