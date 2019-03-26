@@ -1,15 +1,15 @@
 <!doctype html>
 <html>
   <head>
-    <title>Greg McDonald: Curriculum Vitae</title>
+    <title>Greg McDonald: Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     
   </head>
   
   <body>
     <header> 
-      <nav>      
-        <ul>
+      <nav >      
+        <ul class="topnav">
           <p><a href="index.html">Home</a></p>
           <p><a href="#background/">About Me</a></p>
           <p><a href="#frontEndDev">Projects</a></p>
@@ -30,67 +30,59 @@
     </header>  
        
     <main>
-      <section class="content">
+      <section  class="content"  >
          <h2 id="frontEndDev" >Projects</h2>
             <p>I am a front end developer looking to make the complex simple. By using programming technology, I can create a site that takes a problem and presents a simple and easy time for a user.</p>
          
       
       
-           <h3>Projects</h3>
-             
-              <h4><a href="https://gmcd025.github.io/Connect-Four/" target="_blank">Connect Four</a></h4>
-                <p>Win this two player game by connecting four tokens diagonally, horizontally or vertically. Move the token using the left or right arrow keys and press down to drop! This game utilises JavaScript, HTML and CSS, and shows an understanding of core concepts of JavaScript.</p>
-              
-               
-                <img src="images/projects/ConnectFour.JPG" alt="Connect Four preview" > 
-              
-              
-              <h4><a href="https://gmcd025.github.io/Article-posting-site/" target="_blank">Article Posting Website</a></h4>
-                <p>This project was an effort to create a website where articles could be posted and voted on with the website updating dynamically. This website uses HTML, CSS and JavaScript as well as utilising Vue as a framework.</p>
-              
-                <img src="images/projects/articlePosting.JPG" alt="Article Posting Site Preview" >
-              
-              <h4><a href="https://gmcd025.github.io/React/" target="_blank">Scoreboard</a></h4>
-                <p>Using React as a framework, this project is a Scoreboard in which players can add and take away points to their names. Players can also be removed from the ScoreBoard.</p> 
-              
-                <img src="images/projects/scoreboard.JPG" alt="scoreboard preview" >
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <!--<img src="images/projects/ConnectFour.JPG" alt="Connect Four preview">-->
+                    <video loop>
+                      <source src="connectFour.webm" type="video/webm">
+                    </video>
+                    <div class="text"></div>
+                    <p>Win this two player game by connecting four tokens diagonally, horizontally or vertically. Move the token using the left or right arrow keys and press down to drop! This game utilises JavaScript, HTML and CSS, and shows an understanding of core concepts of JavaScript.</p><br>
+                </div>
                 
+                <div class="mySlides fade">
+                    <!--<img src="images/projects/articlePosting.JPG" alt="Article Posting Site Preview">-->
+                    <video loop>
+                      <source src="skimmitNews.webm" type="video/webm">
+                    </video>
+                    <div class="text"></div>
+                    <p>This project was an effort to create a website where articles could be posted and voted on with the website updating dynamically. This website uses HTML, CSS and JavaScript as well as utilising Vue as a framework.</p><br>
+                </div>
+              
+                <div class="mySlides fade">
+                    <!--<img src="images/projects/scoreboard.JPG" alt="scoreboard preview">-->
+                    <video loop>
+                      <source src="scoreboard.webm" type="video/webm">
+                    </video>
+                    <div class="text"></div>
+                    <p>Using React as a framework, this project is a Scoreboard in which players can add and take away points to their names. Players can also be removed from the ScoreBoard.</p><br>
+                </div>
+        
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                
+                <!-- The dots/circles -->
+                <span style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </span>
+                
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              
               
         </section> 
       
-      <section class="content">
-  
-        <h2 id="background" class="top-border">About Me</h2>
-  
-          <ul>    
-        
-            <p>I am a New Zealander who has been living away from home, Auckland, ever since I graduated in 2012 from the University of Auckland.</p>
-            
-            <!--  **** Picture of Auckland**** -->
-            <img src="images//locations/auckland.jpg" alt="auckland_sunrise_yacht" >
-            
-            <p>I have a Bachelor's degree in Commerce, with majors in Finance and Accounting.
-            After university, I moved to Sydney which I called home for the next six years, starting my career and loving living in the beautiful city. </p>
-            
-            <!-- *** picture of Sydney**** -->
-            <img src="images/locations/sydney.jpg" alt="sydney_opera_house" >
-            
-            <p>In February, 2018 I embark on another adventure, to go teach English in Taipei, Taiwan.</p>
-            
-            <img src="images/locations/taipei.jpg" alt="Tapei 101" >
-            
-            <p>In August, 2018 I touched down in London to call this new city my home.</p>
-            
-            <img src="images/locations/london2.jpg" alt="London " >
-            
-          </ul>
-      
-        </section>
-        
-      
-        
-        
-       <section class="content"> 
+             <section class="content"> 
           <h2 id="experience" class="top-border">Experience</h2>
             
               <h3>Ted Baker</h3>
@@ -149,13 +141,46 @@
                 <p><strong>Customer Service Officer<br> 
                 Sydney, Australia<br> 
                 September 2012 - June 2013</strong></p>
+               
                 
-          <h2 id="contact" class="top-border">Contact</h2>
+         
+        </section>
+      
+      <section class="content">
+  
+        <h2 id="background" class="top-border">About Me</h2>
+  
+          <ul>    
+        
+            <p>I am a New Zealander who has been living away from home, Auckland, ever since I graduated in 2012 from the University of Auckland.</p>
+            
+            <!--  **** Picture of Auckland**** -->
+            <img src="images//locations/auckland.jpg" alt="auckland_sunrise_yacht" >
+            
+            <p>I have a Bachelor's degree in Commerce, with majors in Finance and Accounting.
+            After university, I moved to Sydney which I called home for the next six years, starting my career and loving living in the beautiful city. </p>
+            
+            <!-- *** picture of Sydney**** -->
+            <img src="images/locations/sydney.jpg" alt="sydney_opera_house" >
+            
+            <p>In February, 2018 I embark on another adventure, to go teach English in Taipei, Taiwan.</p>
+            
+            <img src="images/locations/taipei.jpg" alt="Tapei 101" >
+            
+            <p>In August, 2018 I touched down in London to call this new city my home.</p>
+            
+            <img src="images/locations/london2.jpg" alt="London " >
+            
+          </ul>
+        
+         <h2 id="contact" class="top-border">Contact</h2>
             <p><strong>Email:</strong> gregory.b.mcdonald@gmail.com<br>
                 <strong>Phone:</strong> 07554821707
                 
             </p>
+      
         </section>
+
       </main>
     
   </body>
